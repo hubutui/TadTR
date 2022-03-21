@@ -67,10 +67,11 @@ TadTR is an end-to-end Temporal Action Detection TRansformer. It has the followi
 ### Compiling CUDA extensions
 
 ```bash
-cd model/ops;
+cd model/ops
 
 # If you have multiple installations of CUDA Toolkits, you'd better add a prefix
 # CUDA_HOME=<your_cuda_toolkit_path> to specify the correct version. 
+TORCH_CUDA_ARCH_LIST="6.0;6.1;6.2;7.0;7.2;7.5;8.0;8.6;8.6+PTX" \
 python setup.py build_ext --inplace
 ```
 
