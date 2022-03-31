@@ -2,7 +2,7 @@ torch>=1.5.1
 torchvision>=0.6.1
 scipy
 tqdm
-easydict
+addict
 PyYAML
 numpy
 pandas

@@ -3,9 +3,9 @@
 # Copyright (c) 2021. Xiaolong Liu.
 # ------------------------------------------------------------------------
 
-from easydict import EasyDict
+from addict import Dict
 
-cfg = EasyDict()
+cfg = Dict()
 
 # basic option
 cfg.TENSORBOARD = True
